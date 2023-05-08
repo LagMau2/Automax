@@ -1,0 +1,127 @@
+Archivos que tenemos que hacer para cada cosa que pide el proyecto:
+
+HTML
+
+- Landing page (pagina con las fotos y botones para ir a las otros sitios)
+
+    * Titulo Automax
+    * Marco arriba y abajo
+    * boton acerca de
+    * boton contacto
+    * boton llenar formulario
+    * fotos 25 vehiculos (0/25)
+    * descripciones 25 vehiculos (0/25)
+    * marco de las descripciones 
+    * boton primer carro
+    * boton segundo carro
+    * boton tercer carro
+    * marco final
+    * texto siguenos en:
+    * imagenes de los logos redes sociales
+    * 4 links a redes sociales
+
+- pagina acerca de
+
+    * Titulo Automax
+    * Marco arriba y abajo
+    * boton Inicio
+    * boton contacto
+    * boton llenar formulario
+    * Informacion de nuestra empresa
+        ¿Quién eres y a qué te dedicas?
+        ¿Quiénes forman parte de tu empresa?
+        ¿Qué ofreces a tus clientes?
+        ¿Qué te hace diferente a ti, de otros competidores?
+        ¿Por qué los clientes potenciales deben confiar en ti?
+        ¿Qué soluciones les puedes ofrecer?
+    * Podemos poner nuestras fotos en quienes forman parte de la empresa
+    * marco final
+
+- pagina con info de contacto
+
+    * Titulo Automax
+    * Marco arriba y abajo
+    * boton Inicio
+    * boton acerca de 
+    * boton llenar formulario
+    * Información falsa de como contactarnos
+        telefonos 
+        celulares
+        correo electronico
+        direccion del local
+        horarios
+        foto de la sucursal
+    * marco final
+    * texto siguenos en:
+    * imagenes de los logos redes sociales
+    * 4 links a redes sociales
+
+- pagina para llenar hoja de datos y enviarlo (la info se guarda en un archivo aparte)
+
+    * Titulo Automax
+    * Marco arriba y abajo
+    * boton Inicio
+    * boton acerca de 
+    * boton contacto
+    * campo para poner nombre
+    * campo para poner celular
+    * campo para poner vehiculo a rentar
+    * campo para poner fecha de inicio de la renta
+    * campo para poner fecha de fin de la renta
+    * boton de enviar
+    * marco final
+    
+- pagina carro 1 
+
+    * Titulo Automax
+    * Marco arriba y abajo
+    * boton Inicio
+    * boton acerca de 
+    * boton contacto
+    * boton llenar formulario
+    * foto grande del carro
+    * Descripcion detallada del carro 
+    * marco final
+
+- pagina carro 2
+
+    * Titulo Automax
+    * Marco arriba y abajo
+    * boton Inicio
+    * boton acerca de 
+    * boton contacto
+    * boton llenar formulario
+    * foto grande del carro
+    * Descripcion detallada del carro 
+    * marco final
+
+- pagina carro 3
+
+    * Titulo Automax
+    * Marco arriba y abajo
+    * boton Inicio
+    * boton acerca de 
+    * boton contacto
+    * boton llenar formulario
+    * foto grande del carro
+    * Descripcion detallada del carro 
+    * marco final
+
+CSS
+
+    - landingpage
+    - acerca de
+    - contacto
+    - datos
+    - carro 1
+    - carro 2
+    - carro 3
+
+README
+
+    - Poner bonito el README
+    - liga de la imagen de dockerhub
+
+Docker
+
+    - convertir en imagen docker en dockerhub
