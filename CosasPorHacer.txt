@@ -4,11 +4,6 @@ HTML
 
 - Landing page (pagina con las fotos y botones para ir a las otros sitios)
 
-    * Titulo Automax
-    * Marco arriba y abajo
-    * boton acerca de
-    * boton contacto
-    * boton llenar formulario
     * fotos 25 vehiculos (0/25)
     * descripciones 25 vehiculos (0/25)
     * marco de las descripciones 

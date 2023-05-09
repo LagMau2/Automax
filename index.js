@@ -4,7 +4,7 @@ const fs = require('fs');
 //http => (request,response)
 
 http.createServer((request,response)=>{
-    const file = request.url == '/' ? './html/formato.html' : `./${request.url}`;
+    const file = request.url == '/' ? './html/landingpg.html' : `./${request.url}`;
     
     if(request.url == '/login'){
         let data = [];
