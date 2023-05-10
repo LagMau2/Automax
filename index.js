@@ -4,7 +4,7 @@ const fs = require('fs');
 //http => (request,response)
 
 http.createServer((request,response)=>{
-    const file = request.url == '/' ? './html/landingpg.html' : `./${request.url}`;
+    const file = request.url == '/' ? './WWW/landingpg.html' : `./WWW${request.url}`;
     
     if(request.url == '/login'){
         let data = [];
@@ -36,6 +36,9 @@ http.createServer((request,response)=>{
                     break;
                 case 'jpeg':
                     response.writeHead(200, {"Content-Type":"image/jpeg"});
+                    break;
+                case 'jpg':
+                    response.writeHead(200, {"Content-Type":"image/jpg"});
                     break;
                 default:
                     response.writeHead(200, {"Content-Type":"text/html"});

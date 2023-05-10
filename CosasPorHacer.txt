@@ -4,7 +4,7 @@ HTML
 
 - Landing page (pagina con las fotos y botones para ir a las otros sitios)
 
-    * fotos 25 vehiculos (0/25)
+    * fotos 25 vehiculos (3/25)
     * descripciones 25 vehiculos (0/25)
     * marco de las descripciones 
     * boton primer carro
@@ -17,11 +17,6 @@ HTML
 
 - pagina acerca de
 
-    * Titulo Automax
-    * Marco arriba y abajo
-    * boton Inicio
-    * boton contacto
-    * boton llenar formulario
     * Informacion de nuestra empresa
         ¿Quién eres y a qué te dedicas?
         ¿Quiénes forman parte de tu empresa?
@@ -34,11 +29,6 @@ HTML
 
 - pagina con info de contacto
 
-    * Titulo Automax
-    * Marco arriba y abajo
-    * boton Inicio
-    * boton acerca de 
-    * boton llenar formulario
     * Información falsa de como contactarnos
         telefonos 
         celulares
@@ -53,11 +43,6 @@ HTML
 
 - pagina para llenar hoja de datos y enviarlo (la info se guarda en un archivo aparte)
 
-    * Titulo Automax
-    * Marco arriba y abajo
-    * boton Inicio
-    * boton acerca de 
-    * boton contacto
     * campo para poner nombre
     * campo para poner celular
     * campo para poner vehiculo a rentar

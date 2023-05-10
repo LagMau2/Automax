@@ -1,0 +1,57 @@
+
+
+#logo{
+    padding-left: 485px;
+
+}
+
+#menu{
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+#landingpg{
+    padding-left: 200px;
+}
+
+#about{
+    padding-left: 200px;
+}
+
+#contacto{
+    padding-left: 200px;
+}
+
+#formulario{
+    padding-left: 200px;
+}
+#vehiculos_disp{
+    text-align: center;
+}
+
+.fotos1{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fotos1 img{
+    display: inline-block;
+    width: 25%;
+}
+
+#c2{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.desc1 p{
+    display: inline-block;
+}
+
+#d1{
+    padding-left: 120px;
+}
+
+#d2{
+    padding-left: 100px;
+}
