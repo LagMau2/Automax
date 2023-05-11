@@ -4,12 +4,6 @@ HTML
 
 - Landing page (pagina con las fotos y botones para ir a las otros sitios)
 
-    * fotos 25 vehiculos (3/25)
-    * descripciones 25 vehiculos (0/25)
-    * marco de las descripciones 
-    * boton primer carro
-    * boton segundo carro
-    * boton tercer carro
     * marco final
     * texto siguenos en:
     * imagenes de los logos redes sociales
