@@ -85,3 +85,14 @@ figcaption{
     padding-top: 20px;
     border-top-style: solid;
 }
+
+.logos{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#instagram{
+    padding-left: 20px;
+    padding-right: 20px;
+}

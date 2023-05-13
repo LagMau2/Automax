@@ -23,3 +23,44 @@
 #formulario{
     padding-left: 200px;
 }
+
+#car1{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.carro1{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.carro1 p{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+#desc{
+    padding-left:  50px;
+    padding-right: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#siguenos_en{
+    text-align: center;
+    padding-top: 20px;
+    border-top-style: solid;
+}
+
+.logos{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#instagram{
+    padding-left: 20px;
+    padding-right: 20px;
+}

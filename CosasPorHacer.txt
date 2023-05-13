@@ -4,10 +4,7 @@ HTML
 
 - Landing page (pagina con las fotos y botones para ir a las otros sitios)
 
-    * marco final
-    * texto siguenos en:
-    * imagenes de los logos redes sociales
-    * 4 links a redes sociales
+TERMINADA
 
 - pagina acerca de
 
@@ -47,49 +44,15 @@ HTML
     
 - pagina carro 1 
 
-    * Titulo Automax
-    * Marco arriba y abajo
-    * boton Inicio
-    * boton acerca de 
-    * boton contacto
-    * boton llenar formulario
-    * foto grande del carro
-    * Descripcion detallada del carro 
-    * marco final
+TERMINADA
 
 - pagina carro 2
 
-    * Titulo Automax
-    * Marco arriba y abajo
-    * boton Inicio
-    * boton acerca de 
-    * boton contacto
-    * boton llenar formulario
-    * foto grande del carro
-    * Descripcion detallada del carro 
-    * marco final
+TERMINADA
 
 - pagina carro 3
 
-    * Titulo Automax
-    * Marco arriba y abajo
-    * boton Inicio
-    * boton acerca de 
-    * boton contacto
-    * boton llenar formulario
-    * foto grande del carro
-    * Descripcion detallada del carro 
-    * marco final
-
-CSS
-
-    - landingpage
-    - acerca de
-    - contacto
-    - datos
-    - carro 1
-    - carro 2
-    - carro 3
+TERMINADA
 
 README
 
