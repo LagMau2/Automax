@@ -1,7 +1,22 @@
-#logo{
-    padding-left: 485px;
+#top{
+    text-align: center;
 }
-
+#crew_photos{
+    display: inline-flex;
+    flex-direction:row;
+}
+.crew_photo{
+    height: 240px;
+    width: 240px;
+}
+.crew_container{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.crew_name{
+    text-decoration: underline;
+}
 #menu{
     border-top-style: solid;
     border-bottom-style: solid;
@@ -21,4 +36,19 @@
 
 #formulario{
     padding-left: 200px;
+}
+
+.section_skip{
+    direction: rtl;
+}
+hr{
+    color: red;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.carHR{
+    height: 3%;
+    width: 3%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
