@@ -18,6 +18,8 @@ TERMINADA
     * Podemos poner nuestras fotos en quienes forman parte de la empresa
     * marco final
 
+TERMINADA (FALTA TUNEAR PERO EL CONTENIDO YA ESTÁ)
+
 - pagina con info de contacto
 
     * Información falsa de como contactarnos

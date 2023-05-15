@@ -1,7 +1,3 @@
-#logo{
-    padding-left: 485px;
-}
-
 #menu{
     border-top-style: solid;
     border-bottom-style: solid;
@@ -21,4 +17,7 @@
 
 #formulario{
     padding-left: 200px;
+}
+#top{
+    text-align: center;
 }
