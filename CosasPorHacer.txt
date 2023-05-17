@@ -34,6 +34,8 @@ TERMINADA (FALTA TUNEAR PERO EL CONTENIDO YA ESTÁ)
     * imagenes de los logos redes sociales
     * 4 links a redes sociales
 
+TERMINADO
+
 - pagina para llenar hoja de datos y enviarlo (la info se guarda en un archivo aparte)
 
     * campo para poner nombre

@@ -38,3 +38,16 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+#info_div{
+    display: inline-flex;
+    flex-direction:row;
+}
+#local_photos{
+    display: inline-flex;
+    flex-direction:row;
+}
+.local_photo{
+    height: 600px;
+    width: 33.33%;
+}
