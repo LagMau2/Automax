@@ -29,8 +29,7 @@
 figure{
     display: inline-flex;
     flex-direction: column;
-    border-style: solid;
-    border-color: black;
+
 }
 
 figcaption{
@@ -38,17 +37,13 @@ figcaption{
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: solid;
+    border-width: 1px; 
     color: var(--gris-principal);
+    border-color: var(--rojo-principal);
 }
 
 .line{
     text-align: center;
-}
-
-#siguenos_en{
-    text-align: center;
-    padding-top: 20px;
-    border-top-style: solid;
 }
 
 .logos{
@@ -75,4 +70,10 @@ figure:hover {
 }
 .vinc{
     color :red;
+}
+#cars{
+    background-color: var(--gris-oscuro);
+}
+#random_line{
+    color: var(--rojo-principal);
 }

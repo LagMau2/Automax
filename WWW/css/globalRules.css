@@ -28,7 +28,9 @@ li{
     color: var(--gris-principal);
     font-family:Arial, Helvetica, sans-serif;
 }
-
+hr{
+    color: var(--rojo-principal);
+}
 #menu{
     font-style: bold;
     font-size: 20px;
@@ -36,4 +38,11 @@ li{
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 1px;
+}
+
+#siguenos_en{
+    text-align: center;
+    padding-top: 20px;
+    border-top-style: solid;
+    border-color: var(--rojo-principal);
 }

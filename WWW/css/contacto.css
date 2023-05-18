@@ -20,12 +20,6 @@
     /*background-color: var(--gris-claro);*/
 }
 
-#siguenos_en{
-    text-align: center;
-    padding-top: 20px;
-    border-top-style: solid;
-}
-
 .logos{
     text-align: center;
     padding-top: 20px;
@@ -59,4 +53,7 @@
   
 .local_photo:hover {
     transform: scale(1.1);
+}
+#info_div{
+    background-color: var(--gris-oscuro);
 }
