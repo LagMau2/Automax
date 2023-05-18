@@ -1,7 +1,9 @@
 @import 'colors.css';
 #menu{
-    border-top-style: solid;
-    border-bottom-style: solid;
+    background-color: #ee4242;
+    font-style: bold;
+    font-size: 20px;
+    color: black;
 }
 
 #landingpg{
@@ -49,6 +51,15 @@
     flex-direction:row;
 }
 .local_photo{
+    position: center;
     height: 600px;
-    width: 33.33%;
+    width: 1000px;
+    border-left:1000px;
+    margin-left: 420px;
+    padding: 50px;
+    justify-content: center;
+}
+.contact_info{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue
 }
