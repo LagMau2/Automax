@@ -1,8 +1,5 @@
 @import 'colors.css';
-#menu{
-    border-top-style: solid;
-    border-bottom-style: solid;
-}
+@import 'globalRules.css';
 
 #landingpg{
     padding-left: 200px;
@@ -21,6 +18,7 @@
 }
 #top{
     text-align: center;
+    /*background-color: var(--gris-claro);*/
 }
 
 #siguenos_en{
@@ -51,4 +49,11 @@
 .local_photo{
     height: 600px;
     width: 33.33%;
+}
+.local_photo{
+    transition: transform 0.3s ease;
+}
+  
+.local_photo:hover {
+    transform: scale(1.1);
 }
