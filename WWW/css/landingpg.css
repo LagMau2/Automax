@@ -46,6 +46,11 @@ figcaption{
 .line1{
     text-align: center;
 }
+.line1 :hover{
+    scale: 1.2;
+    cursor:pointer;
+
+}
 
 .line2{
     text-align: center;
