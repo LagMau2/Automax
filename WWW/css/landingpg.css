@@ -1,7 +1,9 @@
 #top{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 #menu{
+    font-family: 'Times New Roman', Times, serif;
     border-top-style: solid;
     border-bottom-style: solid;
 }

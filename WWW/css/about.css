@@ -69,3 +69,22 @@ hr{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.section_title{
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+.section_content{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.crew_photo{
+    margin-left: 132px;
+    margin-right: 113px;
+}
