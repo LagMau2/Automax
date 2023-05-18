@@ -2,11 +2,13 @@
 #top{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: white;
 }
 #menu{
-    font-family: 'Times New Roman', Times, serif;
-    border-top-style: solid;
-    border-bottom-style: solid;
+    background-color: #ee4242;
+    font-style: bold;
+    font-size: 20px;
+    color: black;
 }
 
 #landingpg{

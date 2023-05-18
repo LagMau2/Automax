@@ -6,6 +6,12 @@
     display: inline-flex;
     flex-direction:row;
 }
+#menu{
+    background-color: #ee4242;
+    font-style: bold;
+    font-size: 20px;
+    color: black;
+}
 .crew_photo{
     height: 240px;
     width: 240px;

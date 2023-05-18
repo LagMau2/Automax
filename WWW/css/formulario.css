@@ -4,8 +4,10 @@
 }
 
 #menu{
-    border-top-style: solid;
-    border-bottom-style: solid;
+    background-color: #ee4242;
+    font-style: bold;
+    font-size: 20px;
+    color: black;
 }
 
 #landingpg{
