@@ -1,0 +1,12 @@
+{
+  "name": "automax",
+  "version": "1.0.0",
+  "description": "Server and web for a car rent business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" :"node index.js"
+  },
+  "author": "Gil C. Mau R. Sofía G.",
+  "license": "ISC"
+}
