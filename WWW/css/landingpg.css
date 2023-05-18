@@ -43,44 +43,7 @@ figcaption{
     border-top: solid;
 }
 
-.line1{
-    text-align: center;
-}
-.line1 :hover{
-    scale: 1.2;
-    cursor:pointer;
-
-}
-
-.line2{
-    text-align: center;
-}
-
-.line3{
-    text-align: center;
-}
-
-.line4{
-    text-align: center;
-}
-
-.line5{
-    text-align: center;
-}
-
-.line6{
-    text-align: center;
-}
-
-.line7{
-    text-align: center;
-}
-
-.line8{
-    text-align: center;
-}
-
-.line9{
+.line{
     text-align: center;
 }
 
@@ -99,4 +62,16 @@ figcaption{
 #instagram{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.car :hover{
+    scale: 1.2;
+}
+
+figure{
+    transition: transform 0.3s ease;
+}
+  
+figure:hover {
+    transform: scale(1.1);
 }
