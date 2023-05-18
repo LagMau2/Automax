@@ -1,15 +1,5 @@
 @import 'colors.css';
-<<<<<<< HEAD
-#menu{
-    background-color: #ee4242;
-    font-style: bold;
-    font-size: 20px;
-    color: black;
-}
-=======
 @import 'globalRules.css';
->>>>>>> fc98a3a (Se añade una paleta de colores general y se modifican los estilos de todas las páginas)
-
 #landingpg{
     padding-left: 200px;
 }
@@ -56,19 +46,11 @@
     flex-direction:row;
 }
 .local_photo{
-    position: center;
     height: 600px;
-<<<<<<< HEAD
-    width: 1000px;
-    border-left:1000px;
-    margin-left: 420px;
-    padding: 50px;
-    justify-content: center;
+    width: 33.33%;
 }
 .contact_info{
     font-family: Arial, Helvetica, sans-serif;
-    color:blue
-=======
     width: 33.33%;
 }
 .local_photo{
@@ -77,5 +59,4 @@
   
 .local_photo:hover {
     transform: scale(1.1);
->>>>>>> fc98a3a (Se añade una paleta de colores general y se modifican los estilos de todas las páginas)
 }
