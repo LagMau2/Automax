@@ -18,53 +18,53 @@
         </div>
         <div id="main_section">
             <div id="formulario">
-                <form action="/login" method="post"> <!-- action el url donde va a mandar la info-->
+                <form action="/save" method="POST"> <!-- action el url donde va a mandar la info-->
                     <label for="nm">Nombre</label><!--en el for es el id del atributo para el que se crea la etiqueta-->
-                    <input type="text" name="name" placeholder="Nombre" id="nm"/> <br/>
+                    <input type="text" name="name" placeholder="Nombre" id="nm" required/> <br/>
 
                     <label for="lst_p">Apellido paterno</label>
-                    <input type="text" name="last_name_p" placeholder="Apellido paterno" id="lst_p"/> <br/>
+                    <input type="text" name="last_name_p" placeholder="Apellido paterno" id="lst_p" required/> <br/>
 
                     <label for="lst_m">Apellido materno</label>
-                    <input type="text" name="last_name_m" placeholder="Apellido materno" id="lst_m"/> <br/>
+                    <input type="text" name="last_name_m" placeholder="Apellido materno" id="lst_m" required/> <br/>
 
                     <label for="phone">Teléfono</label>
-                    <input type="text" name="phone" placeholder="Teléfono" id="phone"/> <br/>
+                    <input type="text" name="phone" placeholder="Teléfono" id="phone" required/> <br/>
 
                     <label for="car">Auto</label>
                     <select id="car" name="car"> 
-                        <option value="ford">Ford T 1914 </option>
-                        <option value="ford">Lamborghini Veneno 2013</option>
-                        <option value="ford">Ford Raptor 2018</option>
-                        <option value="ford">Mercedes Cerdito 2015</option>
-                        <option value="ford">Camión al cuadrado 2012</option>
-                        <option value="ford">Jetta GLI 2016</option>
-                        <option value="ford">Sentra NISMO 2020</option>
-                        <option value="ford">Peugeot 2008 2023</option>
-                        <option value="ford">Cadillac Escalade 2015</option>
-                        <option value="ford">Chevrolet Corvette 2020</option>
-                        <option value="ford">Mazda MX-5 2023</option>
-                        <option value="ford">Bugatti Chiron 2022</option>
-                        <option value="ford">Inodoromovil 2020</option>
-                        <option value="ford">Chevrolet Avalanche 2012</option>
-                        <option value="ford">El Infiel 2020</option>
-                        <option value="ford">Chevrolet Aveo 2024</option>
-                        <option value="ford">Pareja fina 2023</option>
-                        <option value="ford">Tsuru Americanista 2002</option>
-                        <option value="ford">Toyota Avalon 2019</option>
-                        <option value="ford">Chevrolet Spark 2019</option>
-                        <option value="ford">BMW X4 2021</option>
-                        <option value="ford">BMW Serie 3 2023</option>
-                        <option value="ford">Acura Integra 2023</option>
-                        <option value="ford">Camioneta Sprinter 2020</option>
-                        <option value="ford">Limusina Quinceañera 2014</option>
+                        <option value="fordT1914">Ford T 1914 </option>
+                        <option value="lambo2013">Lamborghini Veneno 2013</option>
+                        <option value="fordRaptor18">Ford Raptor 2018</option>
+                        <option value="merchoCerdito">Mercedes Cerdito 2015</option>
+                        <option value="camion*camion">Camión al cuadrado 2012</option>
+                        <option value="jettaGLI16">Jetta GLI 2016</option>
+                        <option value="sentraNISMO20">Sentra NISMO 2020</option>
+                        <option value="peugeot">Peugeot 2008 2023</option>
+                        <option value="cadillacEsc15">Cadillac Escalade 2015</option>
+                        <option value="corvette20">Chevrolet Corvette 2020</option>
+                        <option value="miata23">Mazda MX-5 2023</option>
+                        <option value="bugattiChiron22">Bugatti Chiron 2022</option>
+                        <option value="inodoro2020">Inodoromovil 2020</option>
+                        <option value="avalanche12">Chevrolet Avalanche 2012</option>
+                        <option value="elCuernos2020">El Infiel 2020</option>
+                        <option value="aveo24">Chevrolet Aveo 2024</option>
+                        <option value="nobios23">Pareja fina 2023</option>
+                        <option value="ElTsuru">Tsuru Americanista 2002</option>
+                        <option value="avalon19">Toyota Avalon 2019</option>
+                        <option value="spark19">Chevrolet Spark 2019</option>
+                        <option value="beamer21X4">BMW X4 2021</option>
+                        <option value="beamer23S3">BMW Serie 3 2023</option>
+                        <option value="integra23">Acura Integra 2023</option>
+                        <option value="sprinter20">Camioneta Sprinter 2020</option>
+                        <option value="XV">Limusina Quinceañera 2014</option>
                     </select><br/>
 
                     <label for="start_d">De: </label>
-                    <input type="date" name="Start_Date" id="start_d"/> <br/>
+                    <input type="date" name="Start_Date" id="start_d" required/> <br/>
 
                     <label for="end_d">Hasta: </label>
-                    <input type="date" name="End_Date" id="end_d"/> <br/>
+                    <input type="date" name="End_Date" id="end_d" required/> <br/>
                     
 
                     <input type="submit" value="Hecho"/>

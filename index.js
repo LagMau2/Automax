@@ -2,21 +2,7 @@ const http = require('http');
 const fs = require('fs');
 
 //http => (request,response)
-
-http.createServer((request,response)=>{
-    const file = request.url == '/' ? './WWW/landingpg.html' : `./WWW${request.url}`;
-    
-    if(request.url == '/login'){
-        let data = [];
-        request.on('data', value => {
-            data.push(value);
-        }).on('end', ()=>{
-            let params = Buffer.concat(data).toString();
-            response.write(params);
-            response.end();
-        });
-    }
-
+function chargePage(file,request,response){
     fs.readFile(file,(error,data)=>{
         if(error){
             response.writeHead(404, {"Content-Type":"text/html"});
@@ -47,4 +33,41 @@ http.createServer((request,response)=>{
             response.end();
         };
     });
+    
+}
+http.createServer((request,response)=>{
+    const file = request.url == '/' ? './WWW/landingpg.html' : `./WWW${request.url}`;
+    //console.log(request.url);
+    if(request.url == '/save' && request.method == "POST"){
+        //console.log("ENTRA");
+        let data = [];
+        request.on('data', value => {
+            data.push(value);
+        }).on('end', ()=>{
+            //console.log(data);
+            let params = Buffer.concat(data).toString();
+            //console.log(params);
+
+            const jsonData = {};
+            params.split('&').forEach(item => {
+            const [key, value] = item.split('=');
+            jsonData[key] = value;
+            });
+            fs.appendFile('./WWW/customers/customers.info', JSON.stringify(jsonData) + '\n', (error) => {
+                if (error) {
+                  response.writeHead(500, { 'Content-Type': 'text/plain' });
+                  response.write('Error al guardar el formulario');
+                  response.end();
+                } else {
+                    response.writeHead(302, { 'Location': './formulario.html' });
+                    response.end();
+                }
+              });
+            //console.log(params);
+            //response.write(params);
+        });
+    }
+    else{chargePage(file,request,response);}
+
+    
 }).listen(8888);
