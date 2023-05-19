@@ -7,16 +7,19 @@ Es necesario haber descargado previamente Docker y node.js
 
 # Instalación
 
-Primero es necesario descargar todos los archivos y guardarlos en una carpeta.
-Una vez que están descargados es necesario acceder a la carpeta por medio de la terminal y ejecutar el comando 
+Primero es necesario descargar la imagen de Docker utilizando el siguiente comando:
 ```
-  node index.js
-  ```
-Una vez que se ejecuta ese comando, podemos acceder al sitio web ingresando lo siguiente en la barra de búsqueda de nuestro navegador
+  docker pull campanita666/automax-web-server
 ```
-    localhost:8888 
- ```
-    
+Ahora es necesario correr la imagen en un contenedor con los puertos en 8888 con el siguiente comando:
+```
+  docker run -p 8888:8888 (nombre o id de la imagen)
+```
+Finalmente en el navegador ingresamos lo siguiente:
+
+```
+  localhost:8888
+```
  Ya deberíamos estar dentro del sitio y poder navegar en el :)
  
 # Herramientas utilizadas
@@ -26,7 +29,7 @@ HTML
 Docker
 Navegador Web 
  
- # Autores
- Gilberto Contreras Conn
- Sofía González Lechuga 348451
- Mauricio Ramírez Ruiz 
+# Autores
+Gilberto Contreras Conn
+Sofía González Lechuga 348451
+Mauricio Ramírez Ruiz 
