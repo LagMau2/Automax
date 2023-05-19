@@ -30,6 +30,6 @@ Docker
 Navegador Web 
  
 # Autores
-Gilberto Contreras Conn
+Gilberto Contreras Conn 348503
 Sofía González Lechuga 348451
-Mauricio Ramírez Ruiz 
+Mauricio Ramírez Ruiz 348705
