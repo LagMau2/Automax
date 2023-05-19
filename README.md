@@ -11,9 +11,11 @@ Primero es necesario descargar todos los archivos y guardarlos en una carpeta.
 Una vez que están descargados es necesario acceder a la carpeta por medio de la terminal y ejecutar el comando 
 ```
   node index.js
+  ```
 Una vez que se ejecuta ese comando, podemos acceder al sitio web ingresando lo siguiente en la barra de búsqueda de nuestro navegador
-
+```
     localhost:8888
+    
  Ya deberíamos estar dentro del sitio y poder navegar en el :)
  
 # Herramientas utilizadas
