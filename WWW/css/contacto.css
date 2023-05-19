@@ -54,6 +54,7 @@
 .local_photo:hover {
     transform: scale(1.1);
 }
-#info_div{
+#main_section{
     background-color: var(--gris-oscuro);
+    background-image: linear-gradient(to bottom, var(--negro-principal), var(--gris-oscuro));
 }

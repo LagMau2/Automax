@@ -18,8 +18,12 @@
 }
 
 #formulario{
-    padding-left: 200px;
+    padding-left: 5%;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logos{
@@ -50,4 +54,16 @@ select{
     background-color: var(--negro-principal);
     color: var(--gris-principal);
     font-family:Arial, Helvetica, sans-serif;
+}
+#main_section{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: var(--gris-oscuro);
+    background-image: linear-gradient(to bottom, var(--negro-principal), var(--gris-oscuro));
+    width: 100%;
+}
+
+#photo{
+    width: 1000px;
+    height: 500px;
 }

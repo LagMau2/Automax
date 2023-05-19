@@ -73,7 +73,7 @@ figure:hover {
 }
 #cars{
     background-color: var(--gris-oscuro);
-    background-image: linear-gradient(to bottom, #333333, #888888);
+    background-image: linear-gradient(to bottom, var(--negro-principal), var(--gris-oscuro));
 }
 #random_line{
     color: var(--rojo-principal);
