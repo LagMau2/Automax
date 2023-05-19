@@ -22,6 +22,8 @@ Finalmente en el navegador ingresamos lo siguiente:
 ```
  Ya deberíamos estar dentro del sitio y poder navegar en el :)
  
+ Link de la imagen: https://hub.docker.com/repository/docker/campanita666/automax-web-server/general
+ 
 # Herramientas utilizadas
 Javascript
 CSS
