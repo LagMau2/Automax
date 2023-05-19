@@ -14,7 +14,8 @@ Una vez que están descargados es necesario acceder a la carpeta por medio de la
   ```
 Una vez que se ejecuta ese comando, podemos acceder al sitio web ingresando lo siguiente en la barra de búsqueda de nuestro navegador
 ```
-    localhost:8888
+    localhost:8888 
+ ```
     
  Ya deberíamos estar dentro del sitio y poder navegar en el :)
  
